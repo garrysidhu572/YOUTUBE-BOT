@@ -19,7 +19,7 @@ AND PLAYLIST VIDEOS....
 ONE OF THE SPPEDEST YOUTUBE BOT 
 I CAN DOWNLOAD 911mb VIDEOS
 IN 1min 
-MADE BY @TELSABOTS**"""
+MADE BY @GARRYFREEBOTS**"""
 
 HELP_TEXT = """**
     YOUTUBE VIDEO
@@ -31,21 +31,21 @@ SENT ANY URL .....
 THEN WAIT BOT WILL SENT
 VIDEOS IN HIGH QUALITY...
 
-MADE BY @TELSABOTS**
+MADE BY @GARRYFREEBOTS**
 """
 
 ABOUT_TEXT = """
  🤖<b>BOT :YOUTUBE DOWNLOADER </b>
  
- 🧑🏼‍💻DEV🧑🏼‍💻: @ALLUADDICT
+ 🧑🏼‍💻DEV🧑🏼‍💻: @PUNJAB_BUY 
  
- 📢<b>CHANNEL :</b>@TELSABOTS
+ 📢<b>CHANNEL :</b>@GARRYFREEBOTS
  
  📝<b>Language :</b>  <a href='https://python.org/'>Python3</a>
  
  🧰<b>Frame Work :</b>  <a href='https://pyrogram.org/'>Pyrogram</a>
  
- 🤩<b>SOURCE :</b>  <a href='https://youtu.be/xyW5fe0AkXo'>CLICK HERE</a>
+ 🤩<b>SOURCE :</b>  <a href='https://youtu.be/Garryplays01'>CLICK HERE</a>
  
  
 """
@@ -53,8 +53,8 @@ ABOUT_TEXT = """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/GARRYFREEBOTS'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/PUNJAB_BUY ')
         ],[
         InlineKeyboardButton('🆘HELP🆘', callback_data='help'),
         InlineKeyboardButton('🤗ABOUT🤗', callback_data='about'),
@@ -65,16 +65,16 @@ START_BUTTONS = InlineKeyboardMarkup(
 
 result_buttons = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/GARRYFREEBOTS'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/PUNJAB_BUY ')
         ],[
         InlineKeyboardButton('🔐CLOSE🔐', callback_data='close')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/GARRYFREEBOTS'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/PUNJAB_BUY ')
         ],[
         InlineKeyboardButton('🏡HOME🏡', callback_data='home'),
         InlineKeyboardButton('🤗ABOUT🤗', callback_data='about'),
@@ -83,8 +83,8 @@ HELP_BUTTONS = InlineKeyboardMarkup(
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/GARRYFREEBOTS'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/PUNJAB_BUY ')
         ],[
         InlineKeyboardButton('🏡HOME🏡', callback_data='home'),
         InlineKeyboardButton('🆘HELP🆘', callback_data='help'),
@@ -95,8 +95,8 @@ ABOUT_BUTTONS = InlineKeyboardMarkup(
 SOURCE_TEXT = """<b>PRESS SOURCE BUTTON \n WATCH MY VIDEO AND\nCHECK DESCRIPTION FOR SOURCE CODE</b>"""
 SOURCE_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('✅SOURCE✅', url='https://youtu.be/xyW5fe0AkXo'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('✅SOURCE✅', url='https://youtu.be/GARRYPLAYS01'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/PUNJAB_BUY ')
         ],[
         InlineKeyboardButton('🔐CLOSE🔐', callback_data='close')
         ]]
@@ -104,14 +104,14 @@ SOURCE_BUTTONS = InlineKeyboardMarkup(
 
 result_buttons = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/TELSABOTS'),
-        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/alluaddict')
+        InlineKeyboardButton('📢CHANNEL📢', url='https://telegram.me/GARRYFREEBOTS'),
+        InlineKeyboardButton('🧑🏼‍💻DEV🧑🏼‍💻', url='https://telegram.me/PUNJAB_BUY ')
         ],[
         InlineKeyboardButton('🔐CLOSE🔐', callback_data='close')
         ]]
     )
 
-result_text = """**JOIN @TELSABOTS**"""
+result_text = """**JOIN @GARRYFREEBOTS**"""
 
 @HB.on_message(filters.command(["start"]))
 async def start(bot, update):
@@ -353,7 +353,7 @@ async def cb_data(bot, update):
         await HB.send_photo(
             chat_id = update.message.chat.id, 
             photo=thumb,
-            caption="**JOIN @TELSABOTS**"
+            caption="**JOIN @GARRYFREEBOTS**"
         )
         await update.message.delete()    
 
@@ -393,7 +393,7 @@ async def ytdl(_, update):
     
     await  HB.send_video(
             chat_id = update.chat.id, 
-            caption=(f"⭕️ PLAYLIST : "+ pyt.title + "\n📥 DOWNLOADED " + "\n✅ JOIN @TELSABOTS" ),
+            caption=(f"⭕️ PLAYLIST : "+ pyt.title + "\n📥 DOWNLOADED " + "\n✅ JOIN @GARRYFREEBOTS" ),
             video = phd.download(),
             
         )
